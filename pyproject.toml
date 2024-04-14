@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "langchain-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Alexander <aez2000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+langchain = "^0.1.15"
+langchain-openai = "^0.1.2"
+unstructured = "^0.13.2"
+langchain-community = "^0.0.32"
+sentence-transformers = "^2.6.1"
+chromadb = "^0.4.24"
+pypdf = "^4.2.0"
+langchainhub = "^0.1.15"
+termcolor = "^2.4.0"
+streamlit = "^1.33.0"
+streamlit-chat = "^0.1.1"
+watchdog = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
